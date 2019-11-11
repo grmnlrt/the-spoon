@@ -1,0 +1,8 @@
+<h1><%= @restaurant[:name] %></h1>
+<ul>
+  <li>address: <%= @restaurant[:address] %></li>
+  <li>category: <%= @restaurant[:category] %></li>
+</ul>
+
+<!-- <a href="/restaurants">Back to restaurants</a> -->
+<%= link_to "Back to restaurants", restaurants_path %>
